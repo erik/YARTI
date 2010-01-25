@@ -1,6 +1,7 @@
 require 'YARTI'
 
-twit = YARTI.new
+#twit = YARTI::Twitter.new
+#I'm an idiot, this doesn't work
 
 user = gets.chomp
 pass = gets.chomp
